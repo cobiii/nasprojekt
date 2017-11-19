@@ -17,8 +17,8 @@
             
             <div class="floatright">
             <ul>
-                <li><a <?php if($url=='/projekt_za_oceno/register.php'){ ?>class="active"<?php } ?> href="register.php">Registracija</a></li>
-                <li><a <?php if($url=='/nasprojekt/login.php'){ ?>class="active"<?php } ?> href="login.php">Prijava</a></li>
+                <li><a <?php if($url=='/projekt_za_oceno/register.php'){ ?>class="active"<?php } ?> href="login.php">Prijava</a></li>
+                <li><a <?php if($url=='/nasprojekt/login.php'){ ?>class="active"<?php } ?> href="adminlogin.php">Prijava Admina</a></li>
                 <li><a <?php if($url=='/nasprojekt/google_index.php'){ ?>class="active"<?php } ?> href="google_index.php">Google</a></li>
                 <li><a <?php if($url=='/nasprojekt/facebook_login.php'){ ?>class="active"<?php } ?> href="facebook_login.php">Facebook</a>
             </div>
